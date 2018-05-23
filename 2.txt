@@ -10,7 +10,6 @@ void setup()
   Serial.begin(9600);
   pinMode(2, INPUT_PULLUP);
   attachInterrupt(2, int0, LOW); //assign int0 
-  //digitalWrite(2,LOW);
  }
 void loop() 
 { 
